@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset= "utf-8">
+        <meta name= "description" content="Curriculo Emerson Almeida Souza">
+        <title>Emerson Almeida Souza CV</title>  
+        
+        <!--Estilo externo-->
+        <!--Anexar Arquivo externo de estilo ao documento HTML-->
+        <link type="text/css" rel="stylesheet" href="estilo.css">
+        
+        <!--Estilo interno-->
+        <!--Se aplicam a todas as tags, a não ser que você use seletores-->
+        <!--Por exempo o p, se aplicará em todos os paragrafos-->
+        <!--Especificação globais-->
+        <style> 
+            h2{color: red} 
+            p{color: yellow; font-size: 2em;}
+            
+            .primeiro_paragrafo{color: black; 
+            font-size: 1em;}  
+        </style> <!--Aqui estou utilizando a classe que criei especificamente para um paragrafo, as mudanças só sera aplicada naquela tag especifica-->
+        
+    </head>
+    
+    <!--Comando para mostrar um texto como eles está, sem ser responsivo <pre>TESTE
+TESTE
+TESTE
+TESTE</pre> O ULTIMO PRÉ VAI PARA O FINAL-->
+    
+    <body>
+        <!--Como colocar uma IMG no site-->
+        <p><img src = "Fotos/Foto2.jpeg" alt = "Emerson Almeida Souza"></p>  <!--Coloca o caminho da img e seu formato alt é pra você nomear a img, para ser encontrada pelas pesquisas de img do google-->
+        
+        <!--Colocar uma img definindo seu tamanho-->
+        <p><img src = "Fotos/Foto2.jpeg" width="300" height="300"></p> <!--largura altura-->
+        <h1>Emerson Almeida Souza</h1>
+        
+        <p><b>Tecnólogo</b> | Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP <!--<b> é para negritar alguma frase ou palavra-->
+            Capivari, São Paulo, Brasil</p>
+        
+        <ul> <!--Lista dentro que contém outras listas dentro-->
+            
+        <h2>Contatar</h2>
+            
+        <!--Lista Ordenada-->   
+        <ul><li>Rua da Glória 10</li> <!-- <li> List Item-->
+            <li>São Luís</li>
+            <li>19 989270073 (Celular)</li>
+            <li>emersonsouza96@hotmail.com</li></ul> 
+        
+        <!--Lista NÃO ORDENADA-->
+        <h2>Principais competências </h2>
+        
+        <ol start = 5 reversed> <!--Usando o start, quero dizer que vai começar deste número de tópico--><!--Com o reversed, ele ordena de cima para baixo-->
+        <li>Suporte Técnico em Computadores</li> 
+        <li>C#(Linguagem de Programação)</li>
+        <li>Banco de Dados (SQL)</li>
+        <li>HTML5</li>
+        <li>CSS.</li></ol> <!--Usando o <ol>, ele deixa ordenada por númeração de tópico-->
+            
+        </ul> <!--Fim da lista que contém outras listas-->
+
+
+        <h2>Resumo</h2>
+        
+            <p class = "primeiro_paragrafo">Apaixonado por Hardware e redes. <!--Criei uma classe para esta TAG, assim posso aplicar as mudanças apens nesta TAG-->
+            Atualmente desempenho serviços de suporte em informática para todas as escolas e creches municipais de Capivari.
+            Estou aprimorando meus conhecimentos em informática (focando principalmente na área de infraestrutura de TI) para que no futuro eu me torne um profissional competente.</p> <!--Usando o <p>, estou dizendo que é um paragrafo, e que está junto, usando o br eu pulo uma linha, porém eles ainda continuarão juntos-->
+
+
+        <h2>Experiência</h2>
+            
+                <p>Prefeitura Municipal de Capivari Estagiário de suporte de informática
+                    Capivari.</p>
+                <dl> <!--Lista de definição-->
+                    <dt>Desempenhando as seguintes funções: </dt><!--Do que se trata o tópico-->
+        
+                    <dd><li>Assistência técnica em computadores e impressoras.</li></dd> <!--Definição do tópico-->
+                    <dd><li>Manutenção de rede e apoio local e remoto ao usuário.</li></dd>
+                    <dd><li>Atendimento ao público.</li></dd>
+                </dl>
+
+        <H2>Formação acadêmica</H2>
+        
+        <p><em>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP<br /> <!--<EM> deixar em itálico e também dar enfase-->
+            Tecnólogo, Analise e Desenvolvimento de Sistemas · (2018 - 2021)</p></em>
+    
+    <h2>Linkedin</h2> <!--Utilizando hiperlinks-->
+    <dd><a href = "https://www.linkedin.com/in/emerson-almeida-souza-829774177" target = "_blank">https://www.linkedin.com/in/emerson-almeida-souza-829774177/</a></dd> <!--O blank é pra abrir em outra página, tipo um ctrl+N-->
+    <!--<a> é de ancor (ancora)-->
+    
+    <!--Criando links para documentos locais-->
+    
+    <h2>LINKS LOCAIS</h2>
+            <!--Endereço da foto-->
+    <a href = "Fotos/Foto1.jpg" target = "_blank">Link da foto 1</a><br/> <!--Link para foto em pasta local-->
+    <a href = "fotos/foto2.jpeg" target = "_blank">Link da foto 2</a><br/>
+    <a href = "2%20-%20A%20sintaxe%20b%C3%A1sica%20da%20linguagem%20de%20marca%C3%A7%C3%A3o%20HTML5.html" target = "_blank">Link do documento em HTML</a>
+    
+    
+
+
+    </body>
+</html>
